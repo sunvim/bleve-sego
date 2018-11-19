@@ -10,7 +10,7 @@ bleve search  use sego tokenizer
 # 安装/更新
 
 ```
-go get -u github.com/huichen/sego
+go get -u github.com/sunvim/bleve-sego
 ```
 
 # 使用
