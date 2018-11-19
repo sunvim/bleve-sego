@@ -1,22 +1,3 @@
-# bleve-sego
-bleve search  use sego tokenizer
-
-# 说明
-
-	第一个项目使用的是gojieba，由于有C依赖，再加上作者很久没有更新相关Bug，因此选择了sego拓展了Bleve分词插件，
-	与github.com/tukdesk/bleve-sego-tokenizer不同的是，并没有修改任何sego源码，这样可以无缝获取sego新功能了，
-	欢迎使用！
-
-# 安装/更新
-
-```
-go get -u github.com/huichen/sego
-```
-
-# 使用
-
-
-```go
 package main
 
 import (
@@ -124,6 +105,3 @@ func prettify(res *bleve.SearchResult) string {
 	}
 	return string(b)
 }
-
-```
-
